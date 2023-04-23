@@ -2,6 +2,7 @@
 type: assignment
 date: 2023-03-07T4:00:00+4:30
 title: 'HW1: Probability and Random Variables'
+tag: Home work-1
 pdf: /static_files/homeworks/HW1.pdf
 attachment: /static_files/homeworks/HW1_attach.csv
 solutions: /static_files/homeworks/HW1_sol.pdf

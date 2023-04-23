@@ -2,6 +2,7 @@
 type: assignment
 date: 2023-04-03T4:00:00+4:30
 title: 'HW2: Important Probability Distributions'
+tag: Home work-2
 pdf: /static_files/homeworks/HW2.pdf
 attachment: /static_files/homeworks/HW2_attach.txt
 # solutions: /static_files/homeworks/HW2_sol.pdf
