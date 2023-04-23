@@ -7,6 +7,6 @@ thumbnail: /static_files/images/R_intro_1.png
 links: 
     - url: /static_files/notebooks/R_intro_1.ipynb
       name: code
-    - url: /static_files/videos/R_intro_1.mp4
+    - url: https://drive.google.com/file/d/1NASEUF32SYqqe5lENvIg8mHwV7qXd_br/view?usp=share_link
       name: video
 ---
