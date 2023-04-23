@@ -7,8 +7,8 @@ thumbnail: /static_files/images/R_visual_3.png
 links: 
     - url: /static_files/notebooks/R_visual_3.ipynb
       name: code
-    - url: /static_files/videos/R_visual_3.mp4
+    - url: https://drive.google.com/file/d/1cADejpqChjyiKNhfdtdvjAUnkzCNHUy3/view?usp=share_link
       name: video
-    - url: /static_files/videos/R_intro_4.mp4
+    - url: https://drive.google.com/file/d/1nqoDeIdHUvryTWrdvDU6jlyihIXr0ma9/view?usp=share_link
       name: video
 ---
