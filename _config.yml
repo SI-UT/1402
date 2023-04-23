@@ -1,0 +1,54 @@
+# Site settings
+course_name: Statistical Inference
+course_description: "This course covers the theory and practice of statistical inference, including hypothesis testing, confidence intervals, and regression analysis. Students will learn how to apply these techniques to real-world datasets and use R language as a statistical software to conduct analyses. By the end of the course, students will be able to make conclusions about populations based on sample data and solve problems in various fields."
+course_semester: "Spring 1402"
+
+baseurl: "/1402" # subpath
+url: "http://SI-UT.github.io/" # hostname
+
+# schoolname: "nbac-lab"
+# schoolurl: "https://nbac.ir"
+# twitter_username: nbac-lab
+
+mail: statistical.inference.ut@gmail.com
+
+
+address: |
+    School of Electrical and Computer Engineering, 
+    University College of Engineering, 
+    University of Tehran,
+    North Kargar st.,
+    Tehran, Iran.
+
+# Build settings
+markdown: kramdown
+
+# Other options
+permalink: blog/:year/:month/:title
+excerpt_separator: "<!--more-->"
+
+include: ['_images', '_css']
+exclude: ['develop']
+
+dateformat: "%m/%d/%Y"
+
+future: true
+collections:
+    events:
+        output: true
+    lectures:
+        output: true
+    materials:
+        output: true
+    assignments:
+        output: true
+    announcements:
+        output: false
+
+
+defaults:
+  - scope:
+      path: ""
+      type: "assignments"
+    values:
+      layout: "assignment"

@@ -1,0 +1,36 @@
+instructors:
+  - name: Abdol-hossein Vahabie
+    # profile_pic: /_images/pp/Vahabie.jpg
+    webpage: https://profile.ut.ac.ir/en/~h.vahabie
+
+teaching_assistants:
+  - name: Mohammad-Hossein H. K. Nili
+    webpage: https://www.linkedin.com/in/mohammad-nili/
+    role: 1
+
+  - name: Mohammad Ranjbar
+    role: 2
+  - name: Sara Rostami
+    role: 2
+  - name: Mahyar Maleki
+    role: 2
+  - name: Melika Sadeghi
+    role: 2
+  - name: Sarmad Zandi
+    role: 2
+  - name: Hossein Valipour
+    role: 2
+  - name: Hamid Nemati  
+    role: 2
+  - name: Siavash Razmi
+    role: 2
+  - name: Romina Oji
+    role: 2
+  - name: Mohammad Sepehri
+    role: 2
+  - name: Fatemeh Taherinejad
+    role: 3
+  - name: Fatemeh Nadi
+    role: 3
+  - name: Javad Serajj
+    role: 3

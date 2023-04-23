@@ -1,0 +1,35 @@
+---
+layout: page
+---
+
+{{ content }}
+
+<ul id="archive">
+{% for material in site.materials %}
+<li class="archiveposturl" style="background: transparent">
+<div class="lecture-container">
+    {% if material.thumbnail %}
+    <div class="thumbnail">
+      <div class="center-cropped" style="margin-top:5px;margin-bottom:5px;background-image: url('{{ material.thumbnail | prepend: site.baseurl }}');">
+        <img src="{{ material.thumbnail | prepend: site.baseurl }}"/>
+      </div>
+    </div>
+    {% endif %}
+    <div class="content">
+        <span style="font-weight: bold;">{{ material.title }}</span><br>
+        {{ material.tldr }}
+        <br/>
+        <strong>
+        {% include material_links.html material=material %}
+        </strong>
+        {% if material.content != '' %}
+        <br/>
+        <div class="markdown-content" style="margin-top: 3px;">
+        {{ material.content }}
+        </div>
+        {% endif %}
+    </div>
+</div>
+</li>
+{% endfor %}
+</ul>
